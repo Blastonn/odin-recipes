@@ -3,14 +3,17 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style.css">
         <title>Receita lasanha</title>
     </head>
     <body>
-        <h1>Receita de lasanha</h1>
-        <img src="../images/fotolasanha.webp" alt="Foto da receita lasanha" height="310" width="310">
+        <h1 id="titulo-lasanha">Receita de lasanha</h1>
+    <div class="container-pratos">
+        <img src="../images/fotolasanha.webp" alt="Foto da receita lasanha" height="310" width="800">
+    </div>
         <h2>Descricao</h2>
         <h3>Ingredientes</h3>
-        <ul>
+        <ul class="container-passos-in">
             <li>Carne</li>
             <li>Cebola e alho</li>
             <li>Tomate</li>
@@ -20,15 +23,17 @@
             <li>Queijos</li>
             <li>Ovo</li>
         </ul>
-        <h3>Passos</h3>
-        <ol>
-            <li>Faça o molho de carne.</li>
-            <li>Cozinhe o macarrão.</li>
-            <li>Faça a mistura de ricota.</li>
-            <li>Monte a lasanha em camadas de acordo com as instruções da receita.</li>
-            <li>Cubra com papel alumínio e leve ao forno.</li>
-            <li>Deixe a lasanha descansar antes de servir.</li>
-        </ol>
-        <a href="../index.html">Home</a>
+        <h3>Passos:</h3>
+        <div class="container-passos-in">
+            <ol>
+                <li>Faça o molho de carne.</li>
+                <li>Cozinhe o macarrão.</li>
+                <li>Faça a mistura de ricota.</li>
+                <li>Monte a lasanha em camadas de acordo com as instruções da receita.</li>
+                <li>Cubra com papel alumínio e leve ao forno.</li>
+                <li>Deixe a lasanha descansar antes de servir.</li>
+            </ol>
+        </div>
+        <a class="home-button" href="../index.html">Voltar</a>
     </body>
 </html>

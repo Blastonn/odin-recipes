@@ -1,0 +1,67 @@
+body{
+    background-color: beige;
+}
+
+
+h1{
+    font-weight: bold;
+    color:  black;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2,h3{
+    text-decoration: underline;
+    font-size: 33px;
+    text-align: center;
+}
+
+
+ul{
+    list-style: none;
+    font-size: 22px;
+    text-align: left;
+
+
+}
+a{
+    color: black;
+
+}
+
+
+.card-links{
+    width: 500px;
+    height: 235px;
+    background-color: bisque;
+    border: 2px solid burlywood;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+    margin: auto;
+}
+
+.container-pratos{
+    width: 800px;
+    background-color: orange;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border: 5px solid burlywood;
+}
+
+#titulo-lasanha{
+    color: orange;
+}
+
+.container-passos-in{
+    border: 2px solid;
+    width: 310px;
+    font-size: 22px;
+    display: block;
+    margin: auto;
+}
+
+.home-button{
+    font-size: 33px;
+}
