@@ -1,3 +1,10 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
 body{
     background-color: beige;
 }
@@ -5,6 +12,7 @@ body{
 
 h1{
     font-weight: bold;
+    margin: 20px;
     color:  black;
     font-size: 40px;
     text-align: center;
@@ -18,28 +26,41 @@ h2,h3{
 }
 
 
-ul{
-    list-style: none;
-    font-size: 22px;
-    text-align: left;
-
-
-}
 a{
-    color: black;
-
+    color: #310b0a;
+    margin: 10px;
 }
 
 
-.card-links{
-    width: 500px;
-    height: 235px;
-    background-color: bisque;
-    border: 2px solid burlywood;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    display: block;
-    margin: auto;
+.card-links-main{
+    width: 650px;
+    height: 250px;
+    background-color: #887673;
+    border: solid 5px #310b0a;
+    margin: 100px auto;
+    box-shadow: 0px 10px 20px 15px #887673;
 }
+
+.text-links-main{
+    font-size: 20px;
+    width: 600px;
+    height: 300px;
+    list-style: none;
+    padding: 20px;
+    margin: 50px auto;
+    
+    
+
+}
+
+.links-main{
+    display: flex ;
+    padding: 20px;
+    border: solid 2px;
+    margin: -40px auto;
+    background-color: #f3eae8;
+}
+
 
 .container-pratos{
     width: 800px;
